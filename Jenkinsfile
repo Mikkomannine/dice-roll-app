@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven3'  // Ensure Maven is installed
-        jdk 'JDK11'     // Ensure JDK is installed
+        maven 'Maven3.9.9'  // Use the correct Maven tool name
+        jdk 'JDK 21'        // Use the correct JDK tool name
     }
     stages {
         stage('Checkout Code') {
